@@ -1,2 +1,2 @@
 # leet-code-practice
-My Leet Code Practice
+Leet code practice
