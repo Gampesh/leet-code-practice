@@ -25,20 +25,6 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function(s) {
-   /* let result = [];
-    let longestString = '';
-    for (let i=0; i< s.length; i++) {
-        if(result.includes(s[i])) {
-            let str = result.join("");
-                longestString = (str.length > longestString.length) ? str : longestString;
-                result = new  Array(s[i]);
-        } else  {
-            result.push(s[i]);
-        }
-    }
-
-    return (longestString.length > result.length ? longestString.length : result.length);*/
-
     var length = s.length;
     if (length <= 1) {
         return length;
